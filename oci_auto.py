@@ -23,11 +23,11 @@ memory_in_gbs = ocpus*6
 wait_s_for_retry = 30
 instance_display_name = 'ubuntu-sg-oci-a1-flex'
 compartment_id = 'ocid1.tenancy.oc1..aaaaaaaasmxmrheayx76fcnzs3j3r342pv2rhvovfeqrqk6xr4qdls7llx4a'
-domain = "AP-SINGAPORE-1-AD-1"  # availability_domain
+domain = "xMMq:AP-SINGAPORE-1-AD-1"  # availability_domain
 image_id = "ocid1.image.oc1.ap-singapore-1.aaaaaaaab2ljowfao3jj2psrqjtdjbzqonvxodaivx5345apram7ynpoho2a"
 subnet_id = 'ocid1.subnet.oc1.ap-singapore-1.aaaaaaaafq4xaswix2abnap2q4fqnw4isbe7gl2idqswh4su4dd4u572pi4a'
 
-ssh_key = "ssh-rsa ************************"
+ssh_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDK3Mrbt1Ax62+Istrteu6vGp9H/WGLF3oKM39P84pyi3SS0VxWNhR9isNA5LynQnwORoSMAIjHj0tICEBdrZqBdU9IPadIx6H83dC8WSsvyZd4HlczylVb4AyhlL6Dob5cUNLG658a18gh0WcKpDsBHyO1eoF6jHOl3ON/RxswX0eaSqWeIqa32WOxG1rsVNYhA8WlJZffO64oBJWEotyyRH7/EhPZH5vrmV3Z1UT0szt+DpVCdC9wK2X/Vwgz6zZDGbosEL/gPrj624utih8OAG1TdXPonIxTDDzAHXXyij9N+IexzJLmikWTZxMU9aNf9tQcBWu/MR61DOt+nqeX ssh-key-2022-01-25"
 # Telegram setting
 # https://medium.com/@ManHay_Hong/how-to-create-a-telegram-bot-and-send-messages-with-python-4cf314d9fa3e
 # Create bot with BotFather, get the API key
