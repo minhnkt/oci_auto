@@ -21,11 +21,11 @@ logging.basicConfig(
 ocpus = 4
 memory_in_gbs = ocpus*6
 wait_s_for_retry = 30
-instance_display_name = 'ubuntu-sg-oci*********'
-compartment_id = 'ocid1.tenancy.oc1..**********************************'
-domain = "rhNU:AP-********************"  # availability_domain
-image_id = "ocid1.image.oc1.ap-singapore-1.*******************************"
-subnet_id = 'ocid1.subnet.oc1.ap-singapore-1.********************'
+instance_display_name = 'ubuntu-sg-oci-a1-flex'
+compartment_id = 'ocid1.tenancy.oc1..aaaaaaaasmxmrheayx76fcnzs3j3r342pv2rhvovfeqrqk6xr4qdls7llx4a'
+domain = "AP-SINGAPORE-1-AD-1"  # availability_domain
+image_id = "ocid1.image.oc1.ap-singapore-1.aaaaaaaab2ljowfao3jj2psrqjtdjbzqonvxodaivx5345apram7ynpoho2a"
+subnet_id = 'ocid1.subnet.oc1.ap-singapore-1.aaaaaaaafq4xaswix2abnap2q4fqnw4isbe7gl2idqswh4su4dd4u572pi4a'
 
 ssh_key = "ssh-rsa ************************"
 # Telegram setting
